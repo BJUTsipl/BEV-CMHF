@@ -1,0 +1,7 @@
+#  BEV-CMHF:A Cross-Modality Hybrid FusionFramework for BEV 3D Object Detection withFeature Interaction and Temporal Fusion
+# Estimate the params of BEV-CMHF
+To evaluate the model’s parameter size, we calculated the total number of learnable parameters by iterating over each element in model.parameters() and summing the number of elements using a.numel(). The resulting parameter count is 45.72 M, indicating that the model possesses substantial representational capacity suitable for complex 3D object detection tasks.
+# Estimate the inference speed of BEV-CMHF
+ When evaluated on the nuScenes dataset using a single NVIDIA GeForce RTX 4090, the method attains an inference speed of 5.79 images per second (5.79 img/s), corresponding to an inference time of 172.64 milliseconds.
+#  Code
+The code for this program will be published soon.
